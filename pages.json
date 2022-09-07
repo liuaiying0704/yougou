@@ -2,7 +2,7 @@
 	"pages": [
    
 	    {
-            "path" : "pages/home/home",
+         "path" : "pages/home/home",
             "style" :                                                                                    
             {
               "navigationStyle": "custom",
@@ -38,7 +38,18 @@
             }
             
         }
+        
     ],
+ "subPackages": [
+   {
+     "root": "subpkg",
+      "pages": [
+     					 {
+     						 "path": "goods_details/goods_detail"
+     					 }
+     				 ]
+   }
+ ],
   "tabBar": {
     "selectedColor": "#c00000",
     "list": [
